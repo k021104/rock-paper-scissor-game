@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import ChoiceButton from './components/ChoiceButton'
-import { FaUser, FaRobot } from 'react-icons/fa'
 
 function App () {
   const [userChoice, setUserChoice] = useState('')
